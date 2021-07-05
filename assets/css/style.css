@@ -315,7 +315,9 @@ header .navbar {
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 500;
+	background-color: rgba(0, 0, 0, 0.363);
+	border-radius: 5px;
 	letter-spacing: 0.5px;
 	color: #fff;
 	transition: all 0.5s;
