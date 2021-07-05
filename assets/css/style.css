@@ -6,6 +6,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#topButton{
+    transform: rotate(270deg);
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-image:linear-gradient(to top left,rgba(172, 253, 66, 0.823),rgba(72, 114, 16, 0.909));
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    /* border-radius: 10em; */
+    /* border-style: solid; */
+    opacity: 0.8;
+}
+#topButton:hover{
+  background-image:linear-gradient(to top left,#a4c639,#a4c639);
+ opacity: 1;
+}
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
@@ -558,6 +582,8 @@ ul.slick-dots {
 .service-item img {
 	width: 100%;
 	overflow: hidden;
+	width:350px;
+	height: 250px;
 }
 
 .service-item .down-content {
